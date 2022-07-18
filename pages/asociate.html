@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRDMM</title>
+	<link rel="shortcut icon" href="../img/favicon.png">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	
+<header class="encabezado" >
+		<div class="header logoYtitulo">
+			<a href="../index.html">
+			<img class="logo__nav--md" src="../img/logomoreno.png" alt="logo del club mariano moreno"> 
+			</a>
+			<h1 class="h1" id="pd-titulo">CENTRO RECREATIVO Y DEPORTIVO MARIANO MORENO</h1>
+		</div>
+	<nav>
+		<ul>
+			<li>
+				<a href="asociate.html">Asociate</a>
+			</li>
+			<li>
+				<a href="elclub.html">El Club</a>
+			</li>
+			<li>
+				<a href="multimedia.html">Multimedia</a>
+			</li>
+			<li>
+				<a href="fixtures.html">Fixtures</a>
+			</li>
+		</ul>
+	</nav>
+	
+</header>
+
+<main class="bgForms bg-border form">
+	<h1 class="h1">¡ASOCIATE!</h1>
+		<section class="form">
+			<form class="form formt" action="envio.php">
+				<fieldset class="form">
+					<legend>Completa con tus datos</legend>
+
+				<label for="name">Nombre y Apellido</label>
+				<input type="text" id="name">
+				<label for="correo">Email</label>
+				<input type="Email" id="correo">
+				<label for="provincia">Provincia</label>
+					<select name="" id="">
+						<option value="bsas">Prov.Buenos Aires (Sur)</option>
+						<option value="bsas">Prov.Buenos Aires (Norte)</option>
+						<option value="caba">CABA</option>
+					</select>
+				<label for="Hombre">Hombre</label>
+					<input type="radio" id="Hombre" name="genero">
+					<label for="Mujer">Mujer</label>
+					<input type="radio" id="Mujer" name="genero">
+					<label for="Otro">Otro</label>
+					<input type="radio" id="Otro" name="genero">
+				</fieldset>
+				<fieldset class="form">
+					<legend>Elegi tus actividades preferidas</legend>
+					<label for="Futsal">Futsal</label>
+					<input type="checkbox" id="Futsal">
+					<label for="Handball">Handball</label>
+					<input type="checkbox" id="Handball">
+					<label for="Volley">Volley</label>
+					<input type="checkbox" id="Volley">
+					<label for="Patin">Patin</label>
+					<input type="checkbox" id="Patin">
+					
+				</fieldset>
+					<label for="aclaraciones">Aclaraciones (opcional)</label>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<input type="reset" value="Cancelar">
+					<input type="submit" value="Enviar">
+
+			</form>
+
+	</section>
+	
+
+</main>
+<footer class="pie">
+	<h1>Seguinos en nuestras redes</h1>
+	<a href="https://www.instagram.com/clubmarianomoreno/?hl=es" target="_blank">
+		<img class="logo__insta" src="../img/logoinstagram.jpg" alt="">
+	</a>	
+</footer>
+
+</body>
+</html>

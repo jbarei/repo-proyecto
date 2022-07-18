@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif; 
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/fondo3.jpg);
+	background-color: ;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.h1{
+	color:black;
+	font-size: 3rem;
+	text-align: center;	
+	font-family: 'Poiret One', cursive;
+
+}
+
+.h2{
+	color: black;
+	font-size: 3rem;
+	font-family: 'Poiret One', cursive;
+	margin: 10px;
+	font-weight: 600;
+}
+
+.encabezado{
+	margin: 5px;
+	padding: 5px;
+}
+.encabezado nav{
+		background-color: rgba(255,138, 0, 0.8);
+		border: double black 10px;
+		font-style: italic;
+		margin: 5px;
+		padding: 5px;
+}
+
+
+.encabezado nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+		nav ul li{
+			font-size: 1.8rem;
+			font-family:'Roboto', sans-serif;
+			list-style: none;
+			margin-right: 5px;
+			text-decoration-line: overline;
+
+		}
+
+
+		nav ul li a{
+			color: black;
+			text-decoration: none;
+			align-items: center;
+		}
+
+article	p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	font-weight: 300;
+}
+
+.main{
+	padding: 10px;
+	margin: 10px;
+	column-gap: 5px;
+	grid-row-gap: 5px;
+
+}
+.logoYtitulo{
+	display: flex;
+	background-color: rgba(255,138, 0, 0.8);
+	border: double black 10px;
+}
+
+#pd-titulo{
+	padding: 50px;
+	font-size: 3rem;
+
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+.text-italic{
+	font-style: italic;
+}
+
+.bgOrange{
+	background-color: rgba(255,138, 0, 0.8);
+}
+
+.bg-light{
+	background-color: rgba(255,138, 0, 0.8);
+}
+
+
+.bg-border{
+	border: double 10px;
+	border-color: black;
+	padding: 6px 20;
+	margin: 15px;
+}
+
+.quienessomos__articulo{
+	width: 50%;
+	height: auto;
+	padding: 5px 50px;
+	margin: 10px auto;
+	border: double black 10px;
+	overflow: auto;
+}
+
+.nuestrahistoria__articulo{
+	width: 50%;
+	height: auto;
+	padding: 5px 50px;
+	margin: 10px auto;
+	border: double black 10px;
+	overflow: auto;
+}
+
+.pie{
+	background-color: rgba(255, 138, 0, .8);
+	text-align: center;
+	border: double black 10px;
+	padding: 5px 0px ;
+	margin: 15px;
+	
+
+}
+
+.pie h1{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	line-height: 2rem;
+	font-style: italic;
+	font-weight: 100;
+
+	
+}
+
+.logo__nav--md{
+	width: 130px;
+	
+}
+
+.logo__insta{
+	width: 50px;
+
+
+}
+
+.bgForms{
+background-color: rgba(255, 138, 0, .8);
+
+}
+
+
+
+.bg-multi{
+	background-color: rgba(255, 255, 255, .8);
+	align-content: center;
+	width: 50%;
+	height: auto;
+	padding: 5px 5px;
+	margin: 10px auto;
+	border: dotted;
+
+}
+
+.noticias__1{
+		color: black;
+		font-family: 'Roboto', sans-serif;
+		width: auto;
+		font-size: 1,4rem;
+		height: auto;
+		line-height: 2rem;
+		overflow: auto;
+		border: double 10px;
+		
+}
+
+.img{
+	width: 30%;
+	height: auto;
+
+}
+
+.bloques{
+	display: flex;
+}
+
+
+.maps_respo{
+	display: flex;
+}
+
+.form{
+	padding: 5px;
+	margin: 5px;
+
+
+}
+
+#mascu{
+	grid-area: mascu;
+
+}
+
+#feme{
+	grid-area: feme;
+
+}
+
+#senior{
+	grid-area: senior;
+
+}
+
+#master{
+	grid-area: master;
+
+}
+
+#fadi{
+	grid-area: fadi;
+
+}
+
+#maps{
+	grid-area: maps;
+}
+
+#main{
+	grid-area: main;
+}
+
+#pie{
+	grid-area: pie;
+}
+
+#grid{
+	display: grid;
+
+}
+
+#grid{
+	overflow: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"mascu" 
+	"feme" 
+	"senior" 
+	"master" 
+	"fadi" 
+	"maps" 
+
+}
+
+
+@media only screen and (min-width: 1024px){
+	#grid{
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 33vh 33vh 33vh;
+		grid-template-areas: 
+		"mascu feme maps" 
+		"senior master maps" 
+		"fadi fadi maps";
+
+	}
+	.form{
+		width: 50%;
+
+	}
+	.formt{
+		width: 100%;
+		padding-left: 80px;
+	}
+	
+
+}
+
+
+@media only screen and (min-width: 360px){
+	.header{
+		flex-direction: column;
+		align-items: center;
+		
+
+	}
+	.maps_respo{
+		height: 200px;
+		margin-left: 20px;
+
+	}
+
+}
+
