@@ -5,48 +5,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CRDMM</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	
-
 <header class="encabezado">
-		<div class="header logoYtitulo">
-			<a href="../index.html">
-			<img class="logo__nav--md" src="../img/logomoreno.png" alt="logo del club mariano moreno"> 
-			</a>
-			<h1 class="h1" id="pd-titulo">CENTRO RECREATIVO Y DEPORTIVO MARIANO MORENO</h1>
-		</div>
-	<nav>
-		<ul>
-			<li>
-				<a href="asociate.html">Asociate</a>
-			</li>
-			<li>
-				<a href="elclub.html">El Club</a>
-			</li>
-			<li>
-				<a href="multimedia.html">Multimedia</a>
-			</li>
-			<li>
-				<a href="fixtures.html">Fixtures</a>
-			</li>
-		</ul>
-	</nav>
-	
+
+<nav class="navbar navbar-expand-md navbar-light bg-orange">
+  	<div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    	<img src="../img/logomoreno.png" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="asociate.html">Asociate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="elclub.html">El Club</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="multimedia.html">
+            Multimedia
+          </a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fixtures.html" tabindex="-1" aria-disabled="true">Fixtures</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 </header>
 
-<main>
-	<h1 class="bg-multi h1">¡MULTIMEDIA!</h1>
-	<section class="bgOrange bg-border bloques">
-			<img class="img" src="../img/header.jpg" alt="polideportivo mariano moreno">
-			<img class="img" src="../img/primeraplantel.jpeg" alt="">
-			<img class="img" src="../img/terceraplantel.jpeg" alt="">
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class=" carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/primeraplantel.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/terceraplantel.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/quintaplantel.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-	</section>
 
-
-</main>
 <footer class="pie">
 	<h1 class="h1">Seguinos en nuestras redes</h1>
 	<a href="https://www.instagram.com/clubmarianomoreno/?hl=es" target="_blank">
@@ -54,5 +80,7 @@
 	</a>	
 </footer>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
