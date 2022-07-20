@@ -5,43 +5,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CRDMM</title>
 	<link rel="shortcut icon" href="../img/favicon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 	
 
 <header class="encabezado">
-		<div class="header logoYtitulo">
-			<a href="../index.html">
-			<img class="logo__nav--md" src="../img/logomoreno.png" alt="logo del club mariano moreno"> 
-			</a>
-			<h1 class="h1" id="pd-titulo">CENTRO RECREATIVO Y DEPORTIVO MARIANO MORENO</h1>
-		</div>
-	<nav>
-		<ul>
-			<li>
-				<a href="asociate.html">Asociate</a>
-			</li>
-			<li>
-				<a href="elclub.html">El Club</a>
-			</li>
-			<li>
-				<a href="multimedia.html">Multimedia</a>
-			</li>
-			<li>
-				<a href="fixtures.html">Fixtures</a>
-			</li>
-		</ul>
-	</nav>
-	
+
+	<nav class="navbar navbar-expand-md navbar-light bg-orange">
+  	<div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    	<img src="../img/logomoreno.png" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="asociate.html">Asociate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="elclub.html">El Club</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="multimedia.html">
+            Multimedia
+          </a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fixtures.html" tabindex="-1" aria-disabled="true">Fixtures</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 </header>
+
 
 <main class="elclub">
 	<article class="text-center bgOrange quienessomos__articulo">
 		<h1 class="text-italic h1">QUIENES SOMOS</h1>
 		<p class="text-black">El Centro Recreativo y Deportivo Mariano Moreno es un club de barrio ubicado en el sur la Provincia de Buenos aires, localidad del partido de Avellaneda. Actualmente se practican distintas disciplinas, en donde se ven involucradas de forma activa aproximadamente 250 personas, entre ellos niños, adolescentes y adultos. El obejtivo principal del club es el de generar a travez del deporte la union, la cooperacion, el trabajo en equipo, la formacion de grupos y la disciplina entre otra cosas, con el fin de inculcar un habito sano y responsable, basado siempre en las generaciones futuras. </p>	
 	</article>
-	<article class="bg-light text-center nuestrahistoria__articulo">
+	<article class="bgOrange text-center nuestrahistoria__articulo">
 		<h2 class="text-italic h2">NUESTRA HISTORIA</h2>
 		<p class="text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maiores rerum libero officiis ipsam architecto eveniet adipisci. Ipsam nisi perspiciatis, modi id consequatur excepturi veniam ab, magni veritatis rerum voluptatum!</p>
 	</article>
@@ -54,5 +65,6 @@
 	</a>	
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
