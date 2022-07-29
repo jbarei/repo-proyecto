@@ -1,0 +1,62 @@
+.main{
+	padding: 10px;
+	margin: 10px;
+	column-gap: 5px;
+	grid-row-gap: 5px;
+
+}
+
+.noticias__1{
+		color: $black;
+		font-family: $fontMain;
+		width: auto;
+		font-size: 1.4rem;
+		height: auto;
+		line-height: 2rem;
+		overflow: auto;
+		border: double 10px;
+		p{
+			color: $black;
+		}
+}
+
+.quienessomos__articulo{
+	width: $w-100;
+	height: auto;
+	padding: 5px 50px;
+	margin: 10px auto;
+	border: double black 10px;
+	overflow: auto;
+}
+
+.nuestrahistoria__articulo{
+	width: $w-100;
+	height: auto;
+	padding: 5px 50px;
+	margin: 10px 0 20px 0;
+	border: double black 10px;
+	overflow: auto;
+}
+
+.bg-multi{
+	background-color: $mainColor;
+	align-content: center;
+	width: $w-50;
+	height: auto;
+	padding: 5px 5px;
+	margin: 10px auto;
+	border: dotted;
+
+}
+
+.form{
+	padding: 5px;
+	margin: 5px;
+
+}
+
+.img{
+	width: $w-30;
+	height: auto;
+
+}

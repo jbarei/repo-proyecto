@@ -71,11 +71,7 @@ article	p{
 	grid-row-gap: 5px;
 
 }
-.logoYtitulo{
-	display: flex;
-	background-color: rgba(255,138, 0, 0.8);
-	border: double black 10px;
-}
+
 
 .titulo{
 	text-align: center;
@@ -92,10 +88,6 @@ article	p{
 	text-align: center;
 }
 
-
-.text-italic{
-	font-style: italic;
-}
 
 .bgOrange{
 	background-color: rgba(255,138, 0, 0.8);
@@ -144,12 +136,6 @@ article	p{
 .logo__red{
 	width: 30px;
 	
-}
-
-
-.bgForms{
-background-color: rgba(255, 138, 0, .8);
-
 }
 
 
@@ -298,8 +284,4 @@ background-color: rgba(255, 138, 0, .8);
 
 }
 
-.navbar-brand img{
-	width: 60px;
-
-}
 

@@ -1,0 +1,35 @@
+//ANIDACION
+
+.encabezado{
+	background-color: $mainColor;
+	img{
+		width: $w-60px;
+	}
+		ul{
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+			margin: 5px;
+			padding: 5px;
+			font-weight: $textRegular;
+			li{
+				list-style: none;
+				a{
+					color: $black;
+					font-size: $textMd;
+					&:hover{
+							color: $black;
+				}
+			}
+		}
+	}
+}
+
+.titulo{
+	text-align: center;
+	font-size: $textMd;
+	color: $black;
+	font-family: $secondaryFont;
+	font-weight: $textRegular;
+	
+
+}

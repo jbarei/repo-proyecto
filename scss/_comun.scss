@@ -1,0 +1,167 @@
+*{
+	font-family: 'Roboto', sans-serif; 
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/fondo3.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+.h1{
+	color:$black;
+	font-size: $textLg;
+	text-align: center;	
+	font-style: italic;
+	font-family: $secondaryFont;
+	font-weight: $textRegular;
+
+}
+
+.h2{
+	color: $black;
+	font-size: $textLg;
+	font-family: $secondaryFont;
+	margin: 10px;
+	font-weight: $textRegular;
+	text-align: center;	
+}
+
+article	{
+		font-family: $fontMain;
+		p{
+			font-size: $textMd;
+			line-height: $textMd;
+			font-weight: $textLigth;
+
+	}	
+}
+
+.text-center{
+	text-align: center;
+}
+
+.bgOrange{
+	background-color: $mainColor;
+}
+
+.bg-border{
+	border: double 10px;
+	border-color: $black;
+	padding: 6px 20;
+	margin: 15px 15px 25px 15px;
+	min-height: auto;
+}
+
+.bloques{
+	display: flex;
+}
+
+.maps_respo{
+	display: flex;
+}
+
+#mascu{
+	grid-area: mascu;
+
+}
+
+#feme{
+	grid-area: feme;
+
+}
+
+#senior{
+	grid-area: senior;
+
+}
+
+#master{
+	grid-area: master;
+
+}
+
+#fadi{
+	grid-area: fadi;
+
+}
+
+#maps{
+	grid-area: maps;
+}
+
+#main{
+	grid-area: main;
+}
+
+#pie{
+	grid-area: pie;
+}
+
+#grid{
+	display: grid;
+
+}
+
+#grid{
+	overflow: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"mascu" 
+	"feme" 
+	"senior" 
+	"master" 
+	"fadi" 
+	"maps" 
+
+}
+
+
+@media only screen and (min-width: 1024px){
+	#grid{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 30vh 30vh 30vh 10vh;
+		grid-template-areas: 
+		"mascu feme" 
+		"senior master" 
+		"fadi fadi"
+		"maps maps";
+
+	}
+	
+	.maps_respo{
+		display: none;
+	}
+	
+}
+
+@media only screen and (min-width: 768px){
+.carousel{
+	width: 600px;
+	margin: 10px auto 10px auto;
+	}
+
+
+}
+@media only screen and (min-width: 360px){
+	
+	.maps_respo{
+		height: 200px;
+		margin-left: 20px;
+
+
+	}
+
+
+}
