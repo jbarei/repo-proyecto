@@ -1,7 +1,7 @@
 {
   "name": "prueba",
   "version": "1.0.0",
-  "description": "",
+  "description": "Se vinculan todas las carpetas del proyecto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.54.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarei/repo-proyecto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbarei/repo-proyecto/issues"
+  },
+  "homepage": "https://github.com/jbarei/repo-proyecto#readme"
 }
