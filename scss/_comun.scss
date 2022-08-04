@@ -17,6 +17,7 @@ body{
 
 }
 
+
 .h1{
 	color:$black;
 	font-size: $textLg;
@@ -36,14 +37,12 @@ body{
 	text-align: center;	
 }
 
-article	{
+article {
 		font-family: $fontMain;
 		p{
-			font-size: $textMd;
-			line-height: $textMd;
-			font-weight: $textLigth;
+			@include texto(2em, 2em, black);
 
-	}	
+		}
 }
 
 .text-center{
@@ -51,7 +50,7 @@ article	{
 }
 
 .bgOrange{
-	background-color: $mainColor;
+	background-color: map-get($map:$paleta, $key:'tres');
 }
 
 .bg-border{

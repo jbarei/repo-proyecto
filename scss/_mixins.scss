@@ -1,0 +1,45 @@
+// extends
+
+.btn-base{
+	background: linear-gradient(to top, grey, black);
+	width: 100px;
+	height: 25px;
+	border: none;
+	justify-content: center;
+	align-items: center;
+	&:hover{
+		color: $black;
+	}
+
+}
+
+.btn-asoc{
+	@extend .btn-base;
+		border-radius: 5px;
+		&:hover{
+			color:orange;
+		}
+
+}
+
+// mixins
+
+@mixin texto($fontSize, $lineHeigth, $color){
+	font-size: $fontSize;
+	line-height: $lineHeigth;
+	color: $color;
+	font-family: $fontMain;
+	font-weight: $textLigth;
+
+}
+
+
+// maps
+
+$paleta:(
+	'uno': #020202,
+	'dos': #FFFFFF,
+	'tres': #D47010,
+	'cuatro': #E60707,
+	'cinco': #817D7D,);
+

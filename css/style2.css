@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+.btn-base, .btn-asoc {
+  background: linear-gradient(to top, grey, black);
+  width: 100px;
+  height: 25px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.btn-base:hover, .btn-asoc:hover {
+  color: #020202;
+}
+
+.btn-asoc {
+  border-radius: 5px;
+}
+.btn-asoc:hover {
+  color: orange;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   padding: 0px;
@@ -41,6 +60,8 @@ article {
 article p {
   font-size: 2em;
   line-height: 2em;
+  color: black;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -49,7 +70,7 @@ article p {
 }
 
 .bgOrange {
-  background-color: rgba(255, 138, 0, 0.8);
+  background-color: #D47010;
 }
 
 .bg-border {
