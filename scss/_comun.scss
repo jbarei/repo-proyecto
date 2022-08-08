@@ -14,9 +14,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 
-
-}
-
+}	
 
 .h1{
 	color:$black;
@@ -30,11 +28,21 @@ body{
 
 .h2{
 	color: $black;
+	font-size: $textMd;
+	font-family: $secondaryFont;
+	margin: 10px;
+	font-weight: $textRegular;
+	text-align: center;	
+}
+
+.tit-fix{
+	color: #D47010; 
 	font-size: $textLg;
 	font-family: $secondaryFont;
 	margin: 10px;
 	font-weight: $textRegular;
 	text-align: center;	
+
 }
 
 article {
@@ -68,6 +76,8 @@ article {
 .maps_respo{
 	display: flex;
 }
+
+
 
 #mascu{
 	grid-area: mascu;
@@ -130,7 +140,7 @@ article {
 @media only screen and (min-width: 1024px){
 	#grid{
 		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: 30vh 30vh 30vh 10vh;
+		grid-template-rows: 35vh 35vh 30vh 10vh;
 		grid-template-areas: 
 		"mascu feme" 
 		"senior master" 
