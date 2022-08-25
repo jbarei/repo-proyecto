@@ -54,6 +54,11 @@ article {
 		}
 }
 
+.rigth{
+	text-align: right;
+
+}
+
 .text-center{
 	text-align: center;
 }
@@ -78,8 +83,14 @@ article {
 	display: flex;
 }
 
+.size-card{
+		width: 400px;
 
+}
 
+.space{
+	justify-content: space-evenly;
+}
 #mascu{
 	grid-area: mascu;
 
