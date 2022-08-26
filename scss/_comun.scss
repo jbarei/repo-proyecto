@@ -181,8 +181,52 @@ article {
 		height: 200px;
 		margin-left: 20px;
 
-
 	}
 
+}
+
+
+.pag404{
+		text-align: center;
+		color: $white;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-top: 100px;
+		width: 100%;
+}
+
+.pag404 h1{
+		font-family: Silkscreen;
+		font-size: $textLg;
+		padding-bottom: 15px;
+		font-weight: 600;
+}
+				
+.pag404 h2{
+			font-size: $textMd;
+			font-family: Silkscreen;
+			padding-bottom: 20px;
+}			
+
+.pag404 h3{
+			font-size: $textMd;
+			font-family: Silkscreen;
+			padding-bottom: 20px;
+}
+
+.pag404 p{
+		font-size: $textMd;
+		font-family: Silkscreen;
+		padding-bottom: 20px;
 
 }
+			
+
+a h3{
+	color: white;
+	
+}
+
+
