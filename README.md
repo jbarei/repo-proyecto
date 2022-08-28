@@ -1,54 +1,11 @@
-En el archivo index.html se sumo SEO con las siguiente caracteristicas:
+Proyecto sitio web CENTRO RECREATIVO Y DEPORTIVO MARIANO MORENO
 
-Descripcion: meta name description en linea 6 pagina index.html
+El sitio cuenta con 5 pantallas (inicio, asociate, el club, multimedia y fixtures) 100% responsive, es decir, adaptadas totalmente para ser visualizadas tanto por pantallas grandes de escritorio como por pantallas chicas de celular.
+El obejetivo principal del proyecto es el de birndar al club un espacio digital informativo, con el fin de que mas personas puedan conocer la institucion.
 
-Keywords: a travez meta name keywords, palabras claves. linea 7 pagina index.html
+En la entrega tambien se brindan los siguientes links:
 
-Encabezado: h1 "CRDMM". Titulo importante de pagina index.html
+-Link de pages github: https://jbarei.github.io/repo-proyecto/
+-Link dominio servidor Netlify: https://centromarianomoreno.netlify.app/
 
-Texto alternativo en todas las imagenes de index.html
-
-
-En el archivo asociate.html se sumo SEO con las siguiente caracteristicas:
-
-Descripcion: meta name description en linea 6 pagina asociate.html
-
-Keywords: a travez meta name keywords, palabras claves. linea 7 pagina asociate.html
-
-Encabezado: h1 "CRDMM". Titulo importante de pagina asociate.html
-
-Texto alternativo en todas las imagenes de asociate.html
-
-
-En el archivo elclub.html se sumo SEO con las siguiente caracteristicas:
-
-Descripcion: meta name description en linea 6 pagina elclub.html
-
-Keywords: a travez meta name keywords, palabras claves. linea 7 pagina elclub.html
-
-Encabezado: h1 "CRDMM". Titulo importante de pagina elclub.html
-
-Texto alternativo en todas las imagenes de elclub.html
-
-
-En el archivo multimedia.html se sumo SEO con las siguiente caracteristicas:
-
-Descripcion: meta name description en linea 6 pagina multimedia.html
-
-Keywords: a travez meta name keywords, palabras claves. linea 7 pagina multimedia.html
-
-Encabezado: h1 "CRDMM". Titulo importante de pagina multimedia.html
-
-Texto alternativo en todas las imagenes de multimedia.html
-
-
-En el archivo fixtures.html se sumo SEO con las siguiente caracteristicas:
-
-Descripcion: meta name description en linea 6 pagina fixtures.html
-
-Keywords: a travez meta name keywords, palabras claves. linea 7 pagina fixtures.html
-
-Encabezado: h1 "CRDMM". Titulo importante de pagina fixtures.html
-
-Texto alternativo en todas las imagenes de fixtures.html
 
