@@ -6,6 +6,7 @@ El obejetivo principal del proyecto es el de birndar al club un espacio digital 
 En la entrega tambien se brindan los siguientes links:
 
 -Link de pages github: https://jbarei.github.io/repo-proyecto/
+
 -Link dominio servidor Netlify: https://centromarianomoreno.netlify.app/
 
 
