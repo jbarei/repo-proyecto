@@ -11,6 +11,7 @@ En la entrega tambien se brindan los siguientes links:
 
 
 En el repositorio tambien se encuentran los archivos correspondientes a CSS, la carpeta de imagenes, todos los Wireframes realizados para cada una de las paginas (10 total).
+Tambien se agregaron en todos los html comentarios de inicio y fin de cada seccion.
 
 La pagina de ERROR 404 se encuentra en la carpetas pages y se accede haciendo click en el boton del logo de Twitter ubicado en el footer de cada pagina.
 
